@@ -1,0 +1,28 @@
+What is the difference between switch and checkout?
+What does git merge do?
+What happens to the commit history after rebase and why?
+How to understand which branch is remote and which is local in the terminal?
+
+Summary
+Use checkout when you need the full functionality for various operations beyond just switching branches.
+Use switch for a straightforward way to change branches, especially if you're focusing solely on branch management.
+The introduction of switch and other commands (like restore) helps make Git more intuitive by providing clearer options for specific tasks.
+
+
+Summary
+git merge is essential for integrating changes from different branches.
+It supports both fast-forward and three-way merges.
+Conflict resolution may be necessary when changes overlap.
+Using git merge effectively is key to collaborating with others and maintaining a coherent project history in Git.
+
+Summary
+Rebase rewrites commit history by applying commits from one branch onto another, resulting in a linear, cleaner commit history.
+Commit hashes change due to the reapplication of commits.
+While it has advantages for clarity and management, care must be taken when using rebase in collaborative environments.
+
+Summary
+Use git branch for local branches.
+Use git branch -r for remote branches.
+Use git branch -a for all branches (local and remote).
+Use git branch -vv for a detailed view of local branches and their tracking status.
+These commands will help you easily differentiate between local and remote branches in your Git repository.
